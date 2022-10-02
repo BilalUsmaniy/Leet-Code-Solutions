@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-
+        
         my_dict = {}
         for i in nums:
             if my_dict.get(i):
