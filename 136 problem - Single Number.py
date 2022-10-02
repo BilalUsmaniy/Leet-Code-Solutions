@@ -12,4 +12,5 @@ class Solution(object):
             else:
                 my_dict[i] = 1
         min_value = min(my_dict.values())
+        
         return list(my_dict.keys())[list(my_dict.values()).index(min_value)]
