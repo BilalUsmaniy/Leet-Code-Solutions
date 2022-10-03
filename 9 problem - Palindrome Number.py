@@ -8,3 +8,6 @@ class Solution(object):
         if str(x)[::] == str(x)[::-1]:
             return True
         return False
+
+        # # One line code:
+        # return True if str(x)[::] == str(x)[::-1] else False
