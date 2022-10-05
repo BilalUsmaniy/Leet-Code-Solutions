@@ -5,7 +5,6 @@ class Solution(object):
     def longestPalindrome(self, s):
         res = ''
         resLen = 0
-
         for i in range(len(s)):
             l, r = i, i
             while l >= 0 and r < len(s) and s[l] == s[r]:
